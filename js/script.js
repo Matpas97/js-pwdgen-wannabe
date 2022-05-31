@@ -14,4 +14,7 @@ let userSurname = prompt ( 'Inserisci il tuo Cognome ');
 let userColor = prompt ( 'Dimmi il tuo colore preferito')
 
 /// Creo il messaggio finale per l'utente
-let userMessage = userName + userSurname + userColor;
+let userMessage = userName + userSurname + userColor + '21';
+
+/// Stampo Messaggio finale
+document.getElementById('finalmessage').innerHTML = userMessage;
